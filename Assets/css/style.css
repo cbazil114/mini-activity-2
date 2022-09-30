@@ -1,0 +1,45 @@
+:root {
+    --pink: purple;
+    --grey: grey;
+    --white: white;
+}
+
+body {
+
+}
+
+header {
+    margin: 10px;
+
+}
+
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color:grey;
+    border: 1px solid black;
+    min-height: 250px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    width: 100%;
+
+}
+
+.box {
+    background-color: purple;
+    margin: 10px;
+    min-width: 300px;
+    border: 1px dotted var(--grey);
+    padding: 50px;
+    
+
+
+}
+
+.h2 {
+    color: pink;
+    text-align: center;
+    border: 1px solid var(--white);
+
+}
